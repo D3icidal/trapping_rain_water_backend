@@ -3,7 +3,7 @@ class CreateContainers < ActiveRecord::Migration[5.2]
     create_table :containers do |t|
       t.string :title
       t.string :source
-      t.array :array
+      t.integer :heights, array:true, default: []
 
       t.timestamps
     end
