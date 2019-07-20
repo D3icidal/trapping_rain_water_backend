@@ -5,3 +5,4 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+Container.create(title:"leetcode stock sample test case", source:'https://leetcode.com/problems/trapping-rain-water/',heights:[0,1,0,2,1,0,1,3,2,1,2,1])
